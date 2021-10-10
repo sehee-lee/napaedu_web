@@ -12,14 +12,14 @@ var routes = [
     layout: "/admin",
   },
   {
-    path: "/adminq",
+    path: "/info",
     name: "adminQ",
     icon: "ni ni-briefcase-24 text-primary",
     component: AdminQ,
     layout: "/adminq",
   },
   {
-    path: "/napaedu",
+    path: "/info",
     name: "napaEdu",
     icon: "ni ni-books text-green",
     component: Napaedu,
