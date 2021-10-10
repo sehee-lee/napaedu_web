@@ -1,11 +1,7 @@
 import { useState } from "react";
-// node.js library that concatenates classes (strings)
 import classnames from "classnames";
-// javascipt plugin for creating charts
 import Chart from "chart.js";
-// react plugin used to create charts
 import { Line, Bar } from "react-chartjs-2";
-// reactstrap components
 import {
   Button,
   Card,
@@ -56,34 +52,14 @@ const Index = (props) => {
                 <Row className="align-items-center">
                   <div className="col">
                     <h6 className="text-uppercase text-muted ls-1 mb-1">
-                      Intro
+                      adminQ
                     </h6>
-                    <h2 className="mb-0">Intro</h2>
+                    <h2 className="mb-0">행정사법인 호경</h2>
                   </div>
                 </Row>
               </CardHeader>
               <CardBody>
-                하는일 및 소개
-              </CardBody>
-            </Card>
-          </Col>
-        </Row>
-        <br/>
-        <Row>
-          <Col className="mb-5 mb-xl-0">
-            <Card className="bg-gradient-default shadow">
-              <CardHeader className="bg-transparent">
-                <Row className="align-items-center">
-                  <div className="col">
-                    <h6 className="text-uppercase text-muted ls-1 mb-1">
-                      Profile
-                    </h6>
-                    <h2 className="text-white mb-0">대표 Profile</h2>
-                  </div>
-                </Row>
-              </CardHeader>
-              <CardBody className="text-white">
-                대표 소개
+                하는일~!!
               </CardBody>
             </Card>
           </Col>
@@ -96,14 +72,34 @@ const Index = (props) => {
                 <Row className="align-items-center">
                   <div className="col">
                     <h6 className="text-uppercase text-muted ls-1 mb-1">
-                      organization tree
+                      adminQ
                     </h6>
-                    <h2 className="mb-0">조직도</h2>
+                    <h2 className="mb-0">행정사법인 호경 소속 행정사</h2>
                   </div>
                 </Row>
               </CardHeader>
               <CardBody>
-                전체 조직도
+                소속 행정사 profile~~
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
+        <br/>
+        <Row>
+          <Col>
+            <Card className="shadow">
+              <CardHeader className="bg-transparent">
+                <Row className="align-items-center">
+                  <div className="col">
+                    <h6 className="text-uppercase text-muted ls-1 mb-1">
+                      adminQ
+                    </h6>
+                    <h2 className="mb-0">행정사법인 호경 연락</h2>
+                  </div>
+                </Row>
+              </CardHeader>
+              <CardBody>
+                How To Contect???
               </CardBody>
             </Card>
           </Col>

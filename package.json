@@ -1,7 +1,7 @@
 {
   "name": "napaedu",
   "version": "0.1",
-  "description": "행정사 법인 webpage",
+  "description": "행정법인 webpage",
   "main": "index.js",
   "keywords": [
     "react",

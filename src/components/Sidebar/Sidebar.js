@@ -155,28 +155,6 @@ const Sidebar = (props) => {
             </InputGroup>
           </Form>
           <Nav navbar>{createLinks(routes)}</Nav>
-          <hr className="my-3" />
-          <h6 className="navbar-heading text-muted">Documentation</h6>
-          <Nav className="mb-md-3" navbar>
-            <NavItem>
-              <NavLink href="#">
-                <i className="ni ni-spaceship" />
-                Doc 1
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="#">
-                <i className="ni ni-spaceship" />
-                Doc 2
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="#">
-                <i className="ni ni-spaceship" />
-                Doc 3
-              </NavLink>
-            </NavItem>
-          </Nav>
         </Collapse>
       </Container>
     </Navbar>

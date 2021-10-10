@@ -1,24 +1,28 @@
 import Index from "views/Index.js";
-import Profile from "views/Profile.js";
-import Maps from "views/examples/Maps.js";
+import AdminQ from "views/AdminQ.js";
+import Napaedu from "views/Napaedu.js";
 import ContactUs from "views/ContactUs.js";
-import Login from "views/examples/Login.js";
-import Tables from "views/examples/Tables.js";
-import Icons from "views/examples/Icons.js";
 
 var routes = [
   {
     path: "/index",
-    name: "Home",
-    icon: "ni ni-tv-2 text-primary",
+    name: "intro",
+    icon: "ni ni-tv-2 text-success",
     component: Index,
     layout: "/admin",
   },
   {
-    path: "/profile",
-    name: "Profile",
-    icon: "ni ni-single-02 text-yellow",
-    component: Profile,
+    path: "/adminq",
+    name: "adminQ",
+    icon: "ni ni-briefcase-24 text-primary",
+    component: AdminQ,
+    layout: "/admin",
+  },
+  {
+    path: "/napaedu",
+    name: "napaEdu",
+    icon: "ni ni-books text-green",
+    component: Napaedu,
     layout: "/admin",
   },
   {
@@ -27,6 +31,13 @@ var routes = [
     icon: "ni ni-circle-08 text-pink",
     component: ContactUs,
     layout: "/auth",
+  },
+  {
+    path: "/index",
+    name: "공사중",
+    icon: "ni ni-tv-2 text-primary",
+    component: Index,
+    layout: "/admin",
   }
 ];
 export default routes;
