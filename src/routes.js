@@ -16,14 +16,14 @@ var routes = [
     name: "adminQ",
     icon: "ni ni-briefcase-24 text-primary",
     component: AdminQ,
-    layout: "/admin",
+    layout: "/adminq",
   },
   {
     path: "/napaedu",
     name: "napaEdu",
     icon: "ni ni-books text-green",
     component: Napaedu,
-    layout: "/admin",
+    layout: "/napaedu",
   },
   {
     path: "/contact-us",
@@ -31,13 +31,13 @@ var routes = [
     icon: "ni ni-circle-08 text-pink",
     component: ContactUs,
     layout: "/auth",
-  },
-  {
-    path: "/index",
-    name: "공사중",
-    icon: "ni ni-tv-2 text-primary",
-    component: Index,
-    layout: "/admin",
   }
+  // {
+  //   path: "/index",
+  //   name: "공사중",
+  //   icon: "ni ni-tv-2 text-primary",
+  //   component: Index,
+  //   layout: "/admin",
+  // }
 ];
 export default routes;

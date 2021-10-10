@@ -25,9 +25,9 @@ import {
   chartExample2,
 } from "variables/charts.js";
 
-import Header from "components/Headers/Header.js";
+import Header from "components/Headers/NapaeduHeader.js";
 
-const Index = (props) => {
+const Napaedu = (props) => {
   const [activeNav, setActiveNav] = useState(1);
   const [chartExample1Data, setChartExample1Data] = useState("data1");
 
@@ -109,4 +109,4 @@ const Index = (props) => {
   );
 };
 
-export default Index;
+export default Napaedu;
