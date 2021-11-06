@@ -54,13 +54,13 @@ const AdminNavbar = () => {
               <NavItem>
                 <NavLink className="nav-link-icon" to="/" tag={Link}>
                   <i className="ni ni-tv-2" />
-                  <span className="nav-link-inner--text">Intro</span>
+                  <span className="nav-link-inner--text">intro</span>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
                   className="nav-link-icon"
-                  to="/admin/profile"
+                  to="/napaedu/info"
                   tag={Link}
                 >
                   <i className="ni ni-books" />
