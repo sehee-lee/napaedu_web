@@ -53,8 +53,8 @@ const AdminNavbar = () => {
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink className="nav-link-icon" to="/" tag={Link}>
-                  <i className="ni ni-planet" />
-                  <span className="nav-link-inner--text">Home</span>
+                  <i className="ni ni-tv-2" />
+                  <span className="nav-link-inner--text">Intro</span>
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -63,8 +63,8 @@ const AdminNavbar = () => {
                   to="/admin/profile"
                   tag={Link}
                 >
-                  <i className="ni ni-single-02" />
-                  <span className="nav-link-inner--text">Profile</span>
+                  <i className="ni ni-books" />
+                  <span className="nav-link-inner--text">napaEdu</span>
                 </NavLink>
               </NavItem>
             </Nav>

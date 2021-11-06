@@ -25,7 +25,7 @@ import {
   chartExample2,
 } from "variables/charts.js";
 
-import Header from "components/Headers/NapaeduHeader.js";
+import Header from "components/Headers/Header.js";
 
 const Napaedu = (props) => {
   const [activeNav, setActiveNav] = useState(1);

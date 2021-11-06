@@ -1,5 +1,4 @@
 import Index from "views/Index.js";
-import AdminQ from "views/AdminQ.js";
 import Napaedu from "views/Napaedu.js";
 import ContactUs from "views/ContactUs.js";
 
@@ -10,13 +9,6 @@ var routes = [
     icon: "ni ni-tv-2 text-success",
     component: Index,
     layout: "/admin",
-  },
-  {
-    path: "/info",
-    name: "adminQ",
-    icon: "ni ni-briefcase-24 text-primary",
-    component: AdminQ,
-    layout: "/adminq",
   },
   {
     path: "/info",

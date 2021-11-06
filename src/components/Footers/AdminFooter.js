@@ -7,7 +7,7 @@ const Footer = () => {
       <Row className="align-items-center justify-content-xl-between">
         <Col xl="6">
           <div className="copyright text-center text-xl-left text-muted">
-            <strong>napaedu</strong> / 행정법인 호경 / napaedu center
+            <strong>napaEdu</strong>
           </div>
         </Col>
 
